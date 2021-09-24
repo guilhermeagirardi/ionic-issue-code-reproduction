@@ -1,0 +1,52 @@
+{
+	"name": "frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"@ionic/vue": "^6.0.0-beta.6",
+		"@ionic/vue-router": "^6.0.0-beta.6",
+		"core-js": "^3.18.0",
+		"ionicons": "^5.5.3",
+		"register-service-worker": "^1.7.1",
+		"vue": "^3.2.13",
+		"vue-router": "^4.0.11"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~5.0.0-beta.4",
+		"@vue/cli-plugin-eslint": "~5.0.0-beta.4",
+		"@vue/cli-plugin-pwa": "~5.0.0-beta.4",
+		"@vue/cli-plugin-router": "~5.0.0-beta.4",
+		"@vue/cli-service": "~5.0.0-beta.4",
+		"@vue/compiler-sfc": "^3.0.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.32.0",
+		"eslint-plugin-vue": "^7.18.0"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/vue3-essential",
+			"eslint:recommended"
+		],
+		"parserOptions": {
+			"parser": "babel-eslint"
+		},
+		"rules": {
+			"vue/no-deprecated-slot-attribute": "off"
+		}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead",
+		"not ie 11"
+	]
+}
